@@ -23,6 +23,9 @@
 - Use a custom **CNN model** for image classification.
 - Loads `.pth` weights with defined **YAML** configs.
 - Automatically handles **preprocessing** based on training pipeline.
+- ✅ **Built using a custom dataset** with the following classes:
+  - `cutter`, `dallah`, `nail clippers`, `sprinkler`, `terminal block`
+
 
 ---
 
