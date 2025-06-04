@@ -18,13 +18,18 @@
 - Upload an image and detect objects using a **YOLOv8** model.
 - Start **live detection** using an IP camera (like your phone).
 - Fully integrated with **Ultralytics YOLOv8**.
+- ✅ **Trained on a custom dataset** with the following object classes:
+  - `cutter`, `dallah`, `nail clippers`, `sprinkler`, `terminal block`
+
 
 ### 3. Simple Image Classifier
-- Use a custom **CNN model** for image classification.
-- Loads `.pth` weights with defined **YAML** configs.
-- Automatically handles **preprocessing** based on training pipeline.
-- ✅ **Built using a custom dataset** with the following classes:
-  - `cutter`, `dallah`, `nail clippers`, `sprinkler`, `terminal block`
+- Uses a custom lightweight **CNN model** for image classification.
+- Loads `.pth` weights with structured YAML configs.
+- Automatically applies the same preprocessing used during training.
+- ✅ **Trained on a custom dataset with 2 classes**:
+  - `stapler`
+  - `hishambook`
+
 
 
 ---
