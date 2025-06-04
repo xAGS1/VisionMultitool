@@ -18,9 +18,9 @@
 - Upload an image and detect objects using a **YOLOv8** model.
 - Start **live detection** using an IP camera (like your phone).
 - Fully integrated with **Ultralytics YOLOv8**.
-- ✅ **Trained on a custom dataset** with the following object classes:
+- ✅ **Trained on a custom dataset** with the following classes:
   - `cutter`, `dallah`, `nail clippers`, `sprinkler`, `terminal block`
-
+- 🧪 **Data augmentation** was applied during training to improve robustness.
 
 ### 3. Simple Image Classifier
 - Uses a custom lightweight **CNN model** for image classification.
@@ -29,7 +29,7 @@
 - ✅ **Trained on a custom dataset with 2 classes**:
   - `stapler`
   - `hishambook`
-
+- 🧪 **Data augmentation** techniques were applied to increase generalization.
 
 
 ---
