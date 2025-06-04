@@ -1,0 +1,18 @@
+# hyp.yaml
+lr0: 0.01           # initial learning rate   (0.001–0.02)
+lrf: 0.1            # final learning rate = lr0 * lrf
+momentum: 0.9       # SGD momentum           (0.8–0.95)
+weight_decay: 5e-4  # optimizer weight decay  (0–1e-3)
+
+batch_size: 8      # images per batch        (8–64)
+epochs: 60          # number of training epochs (10–200)
+
+imgsz: 640          # input image size        (320–1024)
+
+hsv_h: 0.015        # image HSV augmentation
+hsv_s: 0.7
+hsv_v: 0.4
+flipud: 0.0         # vertical flip prob
+fliplr: 0.5         # horizontal flip prob
+mosaic: 0.0         # mosaic augmentation prob
+mixup: 0.0          # mixup augmentation prob

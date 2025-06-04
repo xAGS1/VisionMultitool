@@ -1,0 +1,7 @@
+# data.yaml
+train: C:/Users/hisha/Desktop/dataset/ourCNNset/train
+val:   C:/Users/hisha/Desktop/dataset/ourCNNset/val
+
+
+nc: 3
+names: ['hishambook', 'Stapler','none']
